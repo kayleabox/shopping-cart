@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+        
+        <!-- Our Stylesheet -->
+        <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    </head>
+
+    <body>
+
+        <nav>
+            <div class="nav-wrapper light-green lighten-2">
+                <a href="index.html" class="brand-logo">Fermentation Station</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#"></a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="shoppingCart.html"><i class="material-icons left">shopping_cart</i>My Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row light-green lighten-5 card">
+                <div class="col s12 center-align light-green-text lighten-2 "><h3>Products</h3></div>
+                <hr>
+                <div class="col s12 light-green-text lighten-2 ">
+                    <div class="row">
+                        <div class="col s12 products">
+                            <div class="row">
+                            <div class="col s3 center-align">
+                                <img class="product-img" src="../assets/images/brownCrock.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="brownCrock">Name: </label>
+                                    <span id="brownCrock" value="brownCrock">Brown Crock</span>
+                                    <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="product col s3 center-align">
+                                <img class="product-img" src="../assets/images/whiteCrock.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="whiteCrock">Name: </label>
+                                    <span id="whiteCrock" value="whiteCrock">White Crock</span>
+                                     <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>                               
+                                </form>
+                            </div>
+                            <div class="product col s3 center-align">
+                                <img class="product-img" src="../assets/images/greenCrock.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="greenCrock">Name: </label>
+                                    <span id="greenCrock" value="greanCrock">Green Crock</span>
+                                    <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>                                
+                                </form>
+                            </div>
+                            <div class="product col s3 center-align">
+                                <img class="product-img" src="../assets/images/blueCrock.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="blueCrock">Name: </label>
+                                    <span id="blueCrock" value="blueCrock">Blue Crock</span>
+                                    <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>                                
+                                </form>                                
+                            </div>
+                            </div>
+                            <div class="row">
+                                <div class="product col s3 center-align">
+                                    <img class="product-img" src="../assets/images/colorfulWeights.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="colorfulWeights">Name: </label>
+                                    <span id="colorfulWeights" value="colorfulWeights">Colorful Weights</span>
+                                    <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>                               
+                                </form>                                     
+                                </div>
+                                <div class="product col s3 center-align">
+                                    <img class="product-img" src="../assets/images/brownWeights.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="brownWeights">Name: </label>
+                                    <span id="brownWeights" value="brownWeights">Brown Weights</span>
+                                    <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>                               
+                                </form>                                         
+                                </div>
+                                <div class="product col s3 center-align">
+                                    <img class="product-img" src="../assets/images/starter.jpg">
+                                <form class="create-update-form" action="/cart/add" method="POST">
+                                    <label for="starter">Name: </label>
+                                    <span id="starter" value="starter">Starter</span>
+                                    <button type="submit" class="add-to-cart btn light-green lighten-2">
+                                        <i class="material-icons left">shopping_cart</i> Add
+                                    </button>                                
+                                </form>                                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+</html>
